@@ -1,0 +1,27 @@
+https://github.com/rutwikrp/Wipro_C_Nov24
+
+template command to sync remote repo with local repo
+git clone https://PAT@github.com/rutwikrp/Wipro_C_Nov24
+
+to download any local repo use below command
+git clone https://github.com/rutwikrp/Wipro_C_Nov24
+
+to check the current status use below  command
+git status
+
+to make the configuration while syncing remote repo with local repo use the below two commands(one time activity)
+git config --global user.name "rutwikrp"
+
+git config --global user.email "rutwikpatil73@gmail.com"
+
+To stage the changes from the pwd use below command. The dot in the command represents current folder(pwd). This command marks all the files that need to be updated in the remote repo
+git add .
+
+This command creates the object that need to be moveed from the local machine to the cloud(server)
+git commit -m "relevant message"
+
+This command moves the object from local machine to the git server. However the changes in the remote repo will be first updated to the local repo by running the command:
+git push origin main
+
+
+git pull origin main
