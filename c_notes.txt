@@ -52,4 +52,4 @@ Add to Environment varibales:
 3. On top, double click path
 4. Now click new
 5. Paste the path
-6. click ok ok ok
+6. click ok ok 
