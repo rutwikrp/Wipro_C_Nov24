@@ -56,9 +56,5 @@ int main()
         default:
             puts("Maam, this is Restaurant and not Garden");
         }
-    //     puts("Do you wish to have more? Yes:1, No:2. Your choice plz: ");
-    //     scanf("%d", &choice);
-    // // } 
-    // // while (choice == 1);
-    // puts("Namaste Visit Again");
+    
 }

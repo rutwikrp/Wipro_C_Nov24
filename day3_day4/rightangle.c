@@ -3,21 +3,21 @@
 #include"shapes.h"
 
 //right angle triangle
-// void rightAngle(int n){
+void rightAngle(int n){
 
 
-//     for (int row = 0; row < n; row++)
-//     {
-//         for (int j = 0; j <= row; j++)
-//         {
-//             printf("* ");
-//         }
-//         printf("\n");
+    for (int row = 0; row < n; row++)
+    {
+        for (int j = 0; j <= row; j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
         
-//     }
+    }
     
 
-// }
+}
 // Reverse pyramid Half Left *
 // void revHalfPyraLeft(int n){
 
