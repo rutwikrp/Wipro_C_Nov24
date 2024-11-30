@@ -7,10 +7,11 @@ void removeDuplicates(int arr[], int *size) {
         for (j = i + 1; j < *size; j++) {
             if (arr[i] == arr[j]) {
                 
-                for (k = j; k < *size - 1; k++) {
-                    arr[k] = arr[k + 1];
-                }
-                (*size)--; 
+                // for (k = j; k < *size - 1; k++) {
+                //     arr[k] = arr[k + 1];
+                // }
+                // (*size)--; 
+                arr[j]=0;
                 j--;       
             }
         }

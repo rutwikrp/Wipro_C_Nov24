@@ -17,24 +17,24 @@ int main() {
     char word[100];
     int count = 0;
 
-    // Input the sentence
+
     printf("Enter a sentence: ");
     fgets(sentence, sizeof(sentence), stdin);
-    sentence[strcspn(sentence, "\n")] = '\0'; // Remove newline character
+    sentence[strcspn(sentence, "\n")] = '\0'; 
 
-    // Tokenize the sentence into words
+    
     char *token = strtok(sentence, " ");
     while (token != NULL) {
-        strcpy(word, token); // Copy token into word
-        // Check if the word is a palindrome
+        strcpy(word, token); 
+        
         if (isPalindrome(word)) {
             count++;
         }
-        // Move to the next token
+        
         token = strtok(NULL, " ");
     }
 
-    // Print the result
+    
     printf("Number of palindromic words: %d\n", count);
 
     return 0;
