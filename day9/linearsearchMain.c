@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include "linearsearch.h" 
+#include "linearSearch.c"
+
+
 
 int main() {
     int size, key, result;
